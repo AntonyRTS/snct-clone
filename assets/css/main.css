@@ -1,0 +1,81 @@
+.container {
+    background-color: rgb(77, 255, 0);
+    width: 1100px;
+    height: 100vh;
+}
+
+.header {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 0 10px;
+}
+
+.header__logo {
+    height: 25px;
+}
+
+.header__linkBotão {
+    color: var(--white);
+    font-size: 10px;
+    font-weight: 600;
+    border: 1.6px solid var(--white);
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+.banner{
+    border-radius: 8px;
+    width: 100%;
+}
+
+.dadosEvento{
+    background-color:var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 30px 45px;
+    gap: 10px;
+    border: 1px solid #d5d9d9;
+}
+
+.dadosEvento_linkBotão{
+    background-color: var(--green-btn);
+    border: 1px solid var(--green-btn);
+    color: var(--white);
+    border-radius: 40px;
+    padding: 12px 25px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.dadosEvento_tituloDataLocal{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dadosEvento_titulo{
+    font-size: 25px;
+    color: var(--black-font);
+    margin-bottom: 5px;
+}
+
+.dadosEvento_data,
+.dadosEvento_local{
+    font-size: 14px;
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    color: var(--gray);
+}
+
+
+
+
+
